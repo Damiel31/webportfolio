@@ -18,7 +18,7 @@
     <body>
         
         <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand" href="#">dm<span class="dot-logo">.</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
                     <p class="col-lg-5">I'm a web Designer & Developer, My portfolio showcases my work projects created throughout my career. See my contact information below and get in touch.</p>
                 </div>
 
-                <div class="highlight container-fluid text-left d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <div class="highlight text-left d-flex flex-column flex-md-row  align-items-center justify-content-center">
                     <!-- <div class="row justify-content-center "> -->
                         <div class="web-development col-md-4 col-lg-3 order-md-1  rounded">
                             <img src="./images/webdevelopment.png">
@@ -77,11 +77,11 @@
                 </div>
             </section>
 
-            <section class="tools text-white text-center">
+            <section class="tools container-fluid text-white text-center d-flex justify-content-center align-items-center flex-column ">
                 <h2>My Skills</h2>
-                <div class="tools-container">
-                    <div class="percentage-skill d-flex justify-content-center">
-                        <div class="first-row">
+                <div class="tools-container col-10 col-lg-8 col-xl-4">
+                    <div class="percentage-skill d-flex justify-content-center justify-content-around">
+                        <div class="first-row d-md-flex">
                             <div class="html">
                                 <h3>100&percnt;</h3>
                                 <h4>HTML</h4>
@@ -91,7 +91,7 @@
                                 <h4>CSS</h4>
                             </div>
                         </div>
-                        <div class="second-row">
+                        <div class="second-row d-md-flex">
                             <div class="javascript">
                                 <h3>90&percnt;</h3>
                                 <h4>CSS</h4>
@@ -102,8 +102,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tools-skill">
-
+                    <div class="tools-skill d-flex flex-column justify-content-center justify-content-around align-items-center">
+                        <div class="tools1"></div>
+                        <div class="tools2"></div>
                     </div>
                 </div>
             </section>
@@ -127,7 +128,7 @@
             <section class="contact text-white text-center">
                 <h2>Get in touch</h2>
                 <form action="#">
-                    <div class="d-flex flex-md-column justify-content-center align-items-center mb-5">
+                    <div class="d-flex flex-column justify-content-center align-items-center mb-5">
                         <input type="text" name="name" id="name" placeholder="Name" required autocomplete="">
                         <input type="text" name="last-name" id="last-name" placeholder="Last name" required autocomplete="">
                         <input type="email" name="email" id="email" placeholder="Email" required autocomplete="">

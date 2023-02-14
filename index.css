@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
     background-color: #171717;
@@ -32,9 +37,7 @@ button:hover{
     background-color: #208f4e;
 }
 
-header {
-    position: sticky;
-    top: 0;
+.navbar {
     background-color: #171717;
 }
 
@@ -109,9 +112,39 @@ header {
     font-weight: 500;
 }
 
+.tools {
+    padding: 50px 0px;
+}
+
 .tools-container {
+    padding: 35px 37px 55px 37px;
     background-color: #212121;
 }
+
+.tools-container h4 {
+    margin-bottom: 30px;
+}
+
+.tools-container .tools-skill {
+    margin-top: 50px;
+}
+
+.tools-container .tools1{
+    width: 294px;
+    height: 54px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-image: url("./images/toolsimg.png");
+}
+
+.tools-container .tools2{
+    width: 293px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url("./images/toolsimg2.png");
+}
+
+
 
 .tools-container h3{
     color: #4f4f4f;
@@ -237,8 +270,8 @@ footer h5 {
         padding: 80px 0px;
     }
     .banner img {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .banner .banner-left {
@@ -262,15 +295,31 @@ footer h5 {
         margin: 0px 10px;
         margin-bottom: 30px;
     }
+    
+    .development{
+        padding: 33px 20px;
+    }
+
+    .web-development {
+        padding: 33px 20px;
+    }
 
     .about-me .highlight h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .about-me .highlight > * {
-        margin: 0px 10px;
+        margin: 0px 5px;
     }
 
+
+    .tools {
+        padding: 80px 0px;
+    }
+
+    .tools-container h3 {
+        margin: 0px 20px;
+    }
 
     .project {
         padding: 80px 0;
@@ -314,8 +363,8 @@ footer h5 {
         padding: 100px 0px;
     }
     .banner img {
-        width: 617px;
-        height: 617px;
+        width: 400px;
+        height: 400px;
     }
 
     .banner h1 {
@@ -324,6 +373,10 @@ footer h5 {
 
     .banner p {
         font-size: 18px;
+    }
+
+    .tools {
+        padding: 100px 0px;
     }
     
     h2 {
@@ -366,6 +419,11 @@ footer h5 {
 
 
 @media screen and (min-width: 1440px) {
+
+    .banner img {
+        width: 617px;
+        height: 617px;
+    }
     
     .projects .project-container .first-row img {
         margin: 0 30px;
