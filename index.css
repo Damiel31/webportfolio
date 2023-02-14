@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #171717;
+    font-size: 18px;
+
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 27px;
+    border: none;
+    background-color: #27AE60;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #208f4e;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #171717;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand:hover{
+    color: #27AE60;
+
+}
+.navbar .navbar-brand .dot-logo {
+    color: #27AE60;
+}
+
+.navbar .navbar-nav a{
+    color: #fff !important;
+}
+
+.navbar .navbar-nav a:hover{
+    color: #27AE60;
+}
+
+.navbar .navbar-nav a{
+    margin-right: 42px;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+
+}
+
+.banner {
+   padding: 50px 0px;
+}
+
+.banner-info {
+    margin-bottom: 50px;
+}
+
+.banner-info h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.banner-info span {
+    display: block;
+}
+
+.banner-info p {
+    color: #828282;
+    font-weight: 500;
+}
+
+.banner-info button {
+    margin: 0px 5px;
+}
+
+.banner-info .learn-more {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.banner-info .learn-more:hover {
+    border: 1px solid #27AE60;
+    background-color: #27AE60;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-me {
+    padding: 50px 0px;
+}
+
+.highlight {
+    margin-top: 50px;
+}
+
+.highlight > *{
+    margin-bottom: 30px;
+}
+
+.web-development {
+    padding: 33px 44px;
+    border: 1px solid #000000;
+    border-bottom: 5px solid #27AE60;
+    background-color: #212121;
+}
+
+.web-development h3 {
+    margin-top: 33px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #535353;
+}
+.web-development h3 span {
+    display: block;
+}
+
+.development {
+    padding: 33px 44px;
+    border: 1px solid #000000;
+    background-color: #212121;
+}
+
+.development h3 {
+    margin-top: 33px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #535353;
+}
+
+.development h3 span {
+    display: block;
+}
+
+.projects {
+    padding: 50px 0px;
+}
+
+.projects .project-container .first-row > *{
+    margin-bottom: 20px;
+}
+
+.projects .project-container .second-row > *{
+    margin-bottom: 20px;
+}
+
+.project-container img {
+    width: 366px;
+    height: 366px;
+}
+
+.contact {
+    padding: 50px 0px;
+}
+
+.contact input {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.contact input::placeholder {
+    color: #4f4f4f;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contact textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.contact textarea::placeholder {
+    color: #4f4f4f;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+footer {
+    padding: 50px 0px;
+}
+
+footer h5 {
+    color: #4f4f4f;
+    font-size: 15px;
+}
+
+

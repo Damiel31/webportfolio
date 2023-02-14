@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./index.css">
+
+        <title>Damiel Maquiling | Portfolio</title>
+    </head>
+    <body>
+        
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">dm<span class="dot-logo">.</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="about-me">About me </a>
+                    <a class="nav-link" href="projects">Projects</a>
+                    <a class="nav-link" href="contact">Contact</a>
+                  </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-fluid">
+            <section class="banner d-flex flex-column justify-content-center text-white text-center">
+                <img src="./images/profilepic.png">
+                <div class="banner-left">
+                    <img src="./images/arrowdown.png" class="d-none" >
+                    <div class="banner-info">
+                        <h1>Hi, I am <span>Damiel Maquiling</span></h1>
+                        <p>Full-Stack Web Developer</p>
+                        <button type="submit">Download CV</button>
+                        <button type="submit" class="learn-more">Learn More</button>
+                    </div>
+                    <img src="./images/arrowdown-mobile.png">
+                </div>
+            </section>
+
+            <section class="about-me text-white text-center">
+                <h2>About</h2>
+                <p class="text-justify">I'm a web Designer & Developer, My portfolio showcases my work projects created throughout my career. See my contact information below and get in touch.</p>
+
+                <div class="highlight text-left">
+                    <div class="web-development">
+                        <img src="./images/webdevelopment.png">
+                        <h3>Web<span>Development</span></h3>
+                    </div>
+
+                    <div class="development">
+                        <img src="./images//software development.png">
+                        <h3>Software<span>Development</span></h3>
+                    </div>
+
+                    <div class="development">
+                        <img src="./images//webdesign.png">
+                        <h3>Web<span>Design</span></h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects text-white text-center">
+                <h2>Projects</h2>
+                <div class="project-container">
+                    <div class="first-row">
+                        <img src="./images/project1.jpg">
+                        <img src="./images/project2.jpg">
+                        <img src="./images/project3.jpg">
+                    </div>
+                    <div class="second-row">
+                        <img src="./images/project4.jpg">
+                        <img src="./images/project5.jpg">
+                        <img src="./images/project6.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact text-white text-center">
+                <h2>Get in touch</h2>
+                <form action="#">
+                    <div class="d-flex flex-column mb-5">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="text" name="phone-number" id="phone-number" placeholder="Phone number">
+                        <textarea name="message" id="" placeholder="Message" rows="10"></textarea>
+                    </div>
+                    
+                    <button type="submit">Submit now</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="text-center">
+            <h5>&copy; Oyindamola 2020</h5>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </body>
+</html>
