@@ -32,7 +32,7 @@ button:hover{
     background-color: #208f4e;
 }
 
-.navbar {
+header {
     position: sticky;
     top: 0;
     background-color: #171717;
@@ -109,6 +109,22 @@ button:hover{
     font-weight: 500;
 }
 
+.tools-container {
+    background-color: #212121;
+}
+
+.tools-container h3{
+    color: #4f4f4f;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.tools-container h4 {
+    color: #208f4e;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .about-me {
     padding: 50px 0px;
 }
@@ -177,6 +193,7 @@ button:hover{
 }
 
 .contact input {
+    width: 342px;
     margin-bottom: 30px;
     padding-bottom: 10px;
     background-color: transparent;
@@ -192,6 +209,7 @@ button:hover{
 }
 
 .contact textarea {
+    width: 342px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #4f4f4f;
@@ -210,7 +228,156 @@ footer {
 
 footer h5 {
     color: #4f4f4f;
-    font-size: 15px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .banner {
+        padding: 80px 0px;
+    }
+    .banner img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .banner .banner-left {
+        text-align: left ;
+    }
+
+    .banner .mobile-arrow {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .mobile-arrow img{
+        width:35px;
+        height: 35px;
+    }
+
+    .about-me {
+        padding: 80px 0;
+    }
+
+    .about-me .row > * {
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-me .highlight h3 {
+        font-size: 25px;
+    }
+
+    .about-me .highlight > * {
+        margin: 0px 10px;
+    }
+
+
+    .project {
+        padding: 80px 0;
+    }
+    .projects .project-container .first-row img {
+        margin: 0 5px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .project-container .second-row img {
+        margin: 0 5px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .contact input {
+        width: 500px;
+    }
+
+    .contact textarea{
+        width: 500px;
+    }
+
+    .contact textarea {
+        height: 4em;
+    }
+
+    footer {
+        padding: 80px 0px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .banner {
+        padding: 100px 0px;
+    }
+    .banner img {
+        width: 617px;
+        height: 617px;
+    }
+
+    .banner h1 {
+        font-size: 48px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 48px;
+    }
+
+    .project {
+        padding: 100px 0;
+    }
+    .projects .project-container .first-row img {
+        margin: 0 5px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .project-container .second-row img {
+        margin: 0 5px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+   .contact input {
+        width: 800px;
+    }
+
+    .contact textarea{
+        width: 800px;
+    }
+
+    .contact textarea {
+        height: 4em;
+    }
+
+    footer {
+        padding: 100px 0px;
+    }
 }
 
 
+@media screen and (min-width: 1440px) {
+    
+    .projects .project-container .first-row img {
+        margin: 0 30px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 408px;
+    }
+
+    .projects .project-container .second-row img {
+        margin: 0 30px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 408px;
+    }
+}

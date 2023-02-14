@@ -34,51 +34,89 @@
         </header>
 
         <main class="container-fluid">
-            <section class="banner d-flex flex-column justify-content-center text-white text-center">
-                <img src="./images/profilepic.png">
-                <div class="banner-left">
-                    <img src="./images/arrowdown.png" class="d-none" >
-                    <div class="banner-info">
-                        <h1>Hi, I am <span>Damiel Maquiling</span></h1>
-                        <p>Full-Stack Web Developer</p>
-                        <button type="submit">Download CV</button>
-                        <button type="submit" class="learn-more">Learn More</button>
+            <section class="banner">
+                <div class="d-flex flex-column flex-md-row justify-content-center text-white text-center align-items-md-center justify-content-md-around">
+                    <img src="./images/profilepic.png" class="order-md-1">
+                    <div class="banner-left">
+                        <div class="banner-info">
+                            <h1>Hi, I am <span>Damiel Maquiling</span></h1>
+                            <p>Full-Stack Web Developer</p>
+                            <button type="submit">Download CV</button>
+                            <button type="submit" class="learn-more">Learn More</button>
+                        </div>
                     </div>
-                    <img src="./images/arrowdown-mobile.png">
+                </div>
+                <div class="mobile-arrow d-flex justify-content-center align-items-center">
+                    <img src="./images/arrowdown-mobile.png" >
                 </div>
             </section>
 
-            <section class="about-me text-white text-center">
+            <section class="about-me text-white text-center ">
                 <h2>About</h2>
-                <p class="text-justify">I'm a web Designer & Developer, My portfolio showcases my work projects created throughout my career. See my contact information below and get in touch.</p>
+                <div class="row justify-content-center align-items-center">
+                    <p class="col-lg-5">I'm a web Designer & Developer, My portfolio showcases my work projects created throughout my career. See my contact information below and get in touch.</p>
+                </div>
 
-                <div class="highlight text-left">
-                    <div class="web-development">
-                        <img src="./images/webdevelopment.png">
-                        <h3>Web<span>Development</span></h3>
+                <div class="highlight container-fluid text-left d-flex flex-column flex-md-row align-items-center justify-content-center">
+                    <!-- <div class="row justify-content-center "> -->
+                        <div class="web-development col-md-4 col-lg-3 order-md-1  rounded">
+                            <img src="./images/webdevelopment.png">
+                            <h3>Web<span>Development</span></h3>
+                        </div>
+                        <div class="development col-md-4 col-lg-3 rounded">
+                            <img src="./images//software development.png">
+                            <h3>Software<span>Development</span></h3>
+                        </div>
+                        
+                        <div class="development col-md-4 col-lg-3 order-md-2 rounded">
+                            <img src="./images//webdesign.png">
+                            <h3>Web<span>Design</span></h3>
+                        </div>
+                       
+                    <!-- </div> -->
+                </div>
+            </section>
+
+            <section class="tools text-white text-center">
+                <h2>My Skills</h2>
+                <div class="tools-container">
+                    <div class="percentage-skill d-flex justify-content-center">
+                        <div class="first-row">
+                            <div class="html">
+                                <h3>100&percnt;</h3>
+                                <h4>HTML</h4>
+                            </div>
+                            <div class="css">
+                                <h3>95&percnt;</h3>
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="javascript">
+                                <h3>90&percnt;</h3>
+                                <h4>CSS</h4>
+                            </div>
+                            <div class="git">
+                                <h3>98&percnt;</h3>
+                                <h4>GIT</h4>
+                            </div>
+                        </div>
                     </div>
+                    <div class="tools-skill">
 
-                    <div class="development">
-                        <img src="./images//software development.png">
-                        <h3>Software<span>Development</span></h3>
-                    </div>
-
-                    <div class="development">
-                        <img src="./images//webdesign.png">
-                        <h3>Web<span>Design</span></h3>
                     </div>
                 </div>
             </section>
 
-            <section class="projects text-white text-center">
+            <section class="projects d-flex flex-column text-white text-center">
                 <h2>Projects</h2>
-                <div class="project-container">
-                    <div class="first-row">
+                <div class="project-container ">
+                    <div class="first-row d-flex flex-column flex-md-row justify-content-center align-items-center">
                         <img src="./images/project1.jpg">
                         <img src="./images/project2.jpg">
                         <img src="./images/project3.jpg">
                     </div>
-                    <div class="second-row">
+                    <div class="second-row d-flex flex-column flex-md-row justify-content-center align-items-center">
                         <img src="./images/project4.jpg">
                         <img src="./images/project5.jpg">
                         <img src="./images/project6.jpg">
@@ -89,11 +127,11 @@
             <section class="contact text-white text-center">
                 <h2>Get in touch</h2>
                 <form action="#">
-                    <div class="d-flex flex-column mb-5">
-                        <input type="text" name="name" id="name" placeholder="Name">
-                        <input type="text" name="last-name" id="last-name" placeholder="Last name">
-                        <input type="email" name="email" id="email" placeholder="Email">
-                        <input type="text" name="phone-number" id="phone-number" placeholder="Phone number">
+                    <div class="d-flex flex-md-column justify-content-center align-items-center mb-5">
+                        <input type="text" name="name" id="name" placeholder="Name" required autocomplete="">
+                        <input type="text" name="last-name" id="last-name" placeholder="Last name" required autocomplete="">
+                        <input type="email" name="email" id="email" placeholder="Email" required autocomplete="">
+                        <input type="text" name="phone-number" id="phone-number" placeholder="Phone number" required autocomplete="">
                         <textarea name="message" id="" placeholder="Message" rows="10"></textarea>
                     </div>
                     
