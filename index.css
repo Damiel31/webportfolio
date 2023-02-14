@@ -438,6 +438,10 @@ footer h5 {
         padding: 10px 100px;
         background-color: #171717;
     }
+
+    .about-me .highlight h3 {
+        font-size: 28px;
+    }
     
     .banner img {
         width: 617px;
